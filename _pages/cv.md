@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download my full CV here (updated March 17, 2019).
+Download my full CV <u><a href="https://kevinyamauchi.github.io/files/Yamauchi_CV.pdf">here</a></u> (updated August 18, 2019).
 
 See below for a brief summary of my work.
 
