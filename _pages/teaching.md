@@ -8,7 +8,7 @@ author_profile: true
 Engineering design
 ------
 ### UC Berkeley BioE192: Capstone design course
-I was a graduate student instructor for the Berkeley BioE capstone course. In this capstone course, we taught the students the engineering design process through a semester-long design project in collaboration with a clinician. For my work as a graduate student instructor, I received the Outstanding Graduate Student Instructor award at UC Berkeley.
+I was a graduate student instructor for the Berkeley BioE capstone course. In this capstone course, we taught the students the engineering design process through a semester-long design project in collaboration with a clinician. I mentored the students through their design project and taught a workshop on electronics prototyping with Arduino. For my work as a graduate student instructor, I received the Outstanding Graduate Student Instructor award.
 
 Bioinstrumentation
 ------
