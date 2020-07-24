@@ -18,7 +18,7 @@ Open source image processing software I have contributed to:
 - [napari](https://github.com/napari/napari/):  python-based, GPU-accelerated n-dimensional image viewer for annotating images and exploring analysis results that integrates with modern deep learning algorithms and big data tools.
 - [starfish](https://github.com/spacetx/starfish/): a scaleable pipeline for image-based transcriptomics
 - [dotblotr](https://github.com/czbiohub/dotblotr): image processing pipeline for . See [our preprint](https://www.medrxiv.org/content/10.1101/2020.05.11.20092528v1) to learn how dotblotr contributed to study a study on the antibody response to SARS-CoV-2.
-- [insta](https://github.com/czbiohub/instapipeline): a tool for using crowd-sourced annotations to calibrate and validate in situ transcriptomics image processing pipeliens. See our preprint [here](https://www.biorxiv.org/content/10.1101/2020.07.14.201384v2).
+- [insta](https://github.com/czbiohub/instapipeline): a tool for using crowd-sourced annotations to calibrate and validate in situ transcriptomics image processing pipelines. See our preprint [here](https://www.biorxiv.org/content/10.1101/2020.07.14.201384v2).
 
 
 In Situ Transcriptomics
