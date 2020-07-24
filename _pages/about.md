@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a postdoctoral researcher, co-advised by Silvia Arber and Flavio Donato at the Biozentrum. I am writing software for real time pose estimation in support of the labs goal of understanding how mammals learn to locomote and navigate. Additionally, I am a core developer of [napari](https://github.com/napari/napari).
+Currently, I am a postdoctoral researcher, co-advised by Silvia Arber and Flavio Donato at the Biozentrum. I am writing software for real time pose estimation in support of the lab's goal of understanding how mammals learn to locomote and navigate. Additionally, I am a core developer of [napari](https://github.com/napari/napari).
 
 Previously, I was an R&D engineer in the Bioengineering platform at the [Chan Zuckerberg Biohub](https://www.czbiohub.org/). At the Biohub, I built hardware and software tools to make novel measurements on biological systems. In particular, I led the development of the in situ transcriptomics platform.
 
