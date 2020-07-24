@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an R&D engineer in the Bioengineering platform at the [Chan Zuckerberg Biohub](https://www.czbiohub.org/). At the Biohub, I build hardware and software tools to make novel measurements on biological systems. Currently, I am leading the development of the in situ transcriptomics platform.
+Currently, I am a postdoctoral researcher, co-advised by Silvia Arber and Flavio Donato at the Biozentrum. I am writing software for real time pose estimation in support of the labs goal of understanding how mammals learn to locomote and navigate. Additionally, I am a core developer of [napari](https://github.com/napari/napari).
 
-Previously, I designed microfluidic tools for single cell analysis as an NSF Graduate Research Fellow and Siebel Scholar in the [Herr Lab](http://herrlab.berkeley.edu/) at UC Berkeley. In addition to working on my dissertation, I was a teaching assistant in the Cold Spring Harbor Laboratories Single Cell Analysis course and co-organized the Point of Care Diagnistics seminar.
+Previously, I was an R&D engineer in the Bioengineering platform at the [Chan Zuckerberg Biohub](https://www.czbiohub.org/). At the Biohub, I built hardware and software tools to make novel measurements on biological systems. In particular, I led the development of the in situ transcriptomics platform.
 
-Outside of the lab, you can find me skiing and climbing in the Sierra.
+
+Outside of the lab, you can find me skiing and climbing.
