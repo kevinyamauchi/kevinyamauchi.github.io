@@ -21,7 +21,8 @@ Education
 
 Work experience
 ======
-* Senior R&D Engineer, Chan Zuckerberg Biohub (Present)
+* Postdoctoral Scholar, Iber Lab - ETH Zürich (Present)
+* Senior R&D Engineer, Chan Zuckerberg Biohub (2017-2020)
 * Graduate Student Researcher, Herr Lab - UC Berkeley (2012-2017)
 * Microfluidics intern, 10X Genomics (Summer 2016)
 * Graduate Student Researcher, Klisch Lab - Cal Poly - SLO (2010-2012)
