@@ -4,28 +4,35 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-My research centers around engineering new tools for studying biology. I have designed new tools for studying biological systems at length scales ranging from individual molecules to whole tissues.
+To advance our understanding of how the architecture of biological systems impacts their function, I engineer analysis methods and bioinstrumentation to quantify morphology and organization across all biologically-relevant length scales. In collaboration with biologists and theoreticians, I apply these methods to study the physical and chemical mechanisms that shape our cells, tissues, and organs.
 
 You can find a full list of my papers and patents on <u><a href="https://scholar.google.com/citations?user=zeiZjPAAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</u>
 
-{% include base_path %}
 
-Image processing
+Multimodal spatial omics
+------
+Morphogenesis is a carefully choreographed dance of molecular and morphological patterning. Yet, it remains difficult to quantify interactions between molecular and morphological features in biological organisms. Towards bridging this gap, I develop computational frameworks for integrating spatial molecular profiling and imaging data. This work comprises community-driven data standards, interactive data visualization, and performant software libraries.
+
+- [SpatialData](https://spatialdata.scverse.org/en/latest/): an open and universal framework for multimodal spatial omics. See our [preprint](https://www.biorxiv.org/content/10.1101/2023.05.05.539647v1) and peer-reviewed [paper](https://www.nature.com/articles/s41592-024-02212-x) for details.
+- [starfish](https://spacetx-starfish.readthedocs.io/en/latest/): a scaleable pipeline for image-based transcriptomics. See our peer-reviewed [paper](https://joss.theoj.org/papers/10.21105/joss.02440) for details.
+- [insta](https://github.com/czbiohub/instapipeline): a tool for using crowd-sourced annotations to calibrate and validate in situ transcriptomics image processing pipelines. See our [preprint](https://www.biorxiv.org/content/10.1101/2020.07.14.201384v3) and [peer-reviewed paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009274) for details.
+
+
+Human-in-the-loop data visualization and analysis
 ------
 
-Open source image processing software I have contributed to:
+Thanks to advances in imaging and computation, there is an opportunity to observe and quantify the architecture of organisms across all biologically-relevant length scales. However, due to the size and complexity, it remains challenging to view and explore these data. To address this need, I have developed software for interactive viewing, annotation, and analysis of complex imaging data.
 
-- [napari](https://github.com/napari/napari/):  python-based, GPU-accelerated n-dimensional image viewer for annotating images and exploring analysis results that integrates with modern deep learning algorithms and big data tools.
-- [starfish](https://github.com/spacetx/starfish/): a scaleable pipeline for image-based transcriptomics
-- [dotblotr](https://github.com/czbiohub/dotblotr): image processing pipeline for . See [our paper](https://www.sciencedirect.com/science/article/pii/S2666379120301658) to learn how dotblotr was used to study the antibody response to SARS-CoV-2.
-- [insta](https://github.com/czbiohub/instapipeline): a tool for using crowd-sourced annotations to calibrate and validate in situ transcriptomics image processing pipelines. See our preprint [here](https://www.biorxiv.org/content/10.1101/2020.07.14.201384v2).
+- [napari](https://napari.org/stable/):  python-based, GPU-accelerated n-dimensional image viewer for annotating images and exploring analysis results that integrates with modern deep learning algorithms and big data tools.
+- [napari-threedee](https://napari-threedee.github.io/): toolkit for building interactive applications for 3D annotation and analysis of images. See our pre-print [here](https://www.biorxiv.org/content/10.1101/2023.07.28.550950v1).
 
 
-In Situ Transcriptomics
+Computational biomechanics
 ------
-At the Chan Zuckerberg Biohub, I led the development of the in situ transcriptomics platform . Towards this, I built hardware and software tools to reproducibly automate in situ transcriptomics assays and contributing to open sources software projects such as <u><a href="https://github.com/spacetx/starfish/">starfish</a></u>, <u><a href="https://github.com/napari/napari/">napari</a></u>, and <u><a href="https://github.com/czbiohub/imagingDB">imagingDB</a></u>.
+To elucidate the mechanisms through which soft tissues (e.g., articular cartilage) transduce mechanical signals into microstructual and biochemical changes, we integrated experimental systems and computional models to study how mechanical properties change in response to mechanical stimulus.
 
-{% for post in site.in_situ reversed %}
+**Selected publications**
+{% for post in site.res_biomech reversed %}
   {% include archive-single-research.html %}
 {% endfor %}
 
@@ -44,14 +51,5 @@ To extend the capabilities of microfluidic devices for biological assays, I deve
 
 **Selected publications**
 {% for post in site.microfab reversed %}
-  {% include archive-single-research.html %}
-{% endfor %}
-
-Computational biomechanics
-------
-To elucidate the mechanisms through which soft tissues (e.g., articular cartilage) transduce mechanical signals into microstructual and biochemical changes, we integrated experimental systems and computional models to study how mechanical properties change in response to mechanical stimulus.
-
-**Selected publications**
-{% for post in site.res_biomech reversed %}
   {% include archive-single-research.html %}
 {% endfor %}
