@@ -24,7 +24,7 @@ Owing to advances in imaging and computation, there is an opportunity to observe
 - [napari-threedee](https://napari-threedee.github.io/): toolkit for building interactive applications for 3D annotation and analysis of images. See our pre-print [here](https://www.biorxiv.org/content/10.1101/2023.07.28.550950v1).
 
 ## Computational biomechanics
-To elucidate the principles by which chemistry and physics shape biology, I develop methods for linking biomechical models to experimental data. In collaboration with experimentalists, I have applied these methods to study how mechanical forces impact the form and function of biological systems from the cellular to whole organ scales.
+To elucidate the principles by which chemistry and physics shape biology, I develop methods for linking biomechical models to experimental data. In collaboration with experimentalists, I apply these methods to study how mechanical forces impact the form and function of biological systems from the cellular to whole organ scales.
 
 - At the organ scale, we showed how mechanical stresses drive the emergence of the fractal architecture of the lung during development. See our pre-print [here](https://www.biorxiv.org/content/10.1101/2025.01.13.632436v1.abstract).
 - At the cellular and tissue scale, we discovered how mechanical buckling instabilities inform bladder cancer tumor morphology. See our [peer-reviewed paper](https://www.nature.com/articles/s41567-024-02735-2) and the [News and Views](https://www.nature.com/articles/s41567-024-02763-y) for details.
