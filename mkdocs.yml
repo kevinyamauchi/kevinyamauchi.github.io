@@ -1,0 +1,80 @@
+site_name: Kevin Yamauchi
+
+plugins:
+  - blog:
+      blog_dir: blog
+      authors_file: "{blog}/.authors.yml"
+      categories_allowed:
+        - python
+        - academia
+
+nav:
+  - About: index.md
+  - Research: research.md
+  - Teaching: teaching.md
+  - CV: cv.md
+  - Blog: blog/index.md
+
+theme:
+  name: material
+  icon:
+    logo: material/microscope
+  features:
+  - announce.dismiss
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  - navigation.indexes
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - search.highlight
+  - search.suggest
+  - toc.follow
+  palette:
+    - scheme: default
+      primary: teal
+      accent: light blue
+      # toggle:
+      #   icon: material/weather-sunny
+      #   name: Switch to dark mode
+  # - media: "(prefers-color-scheme)"
+  #   toggle:
+  #     icon: material/brightness-auto
+  #     name: Switch to light mode
+  # - media: "(prefers-color-scheme: light)"
+  #   scheme: default
+  #   primary: teal
+  #   accent: red
+  #   toggle:
+  #     icon: material/weather-sunny
+  #     name: Switch to dark mode
+  # - media: "(prefers-color-scheme: dark)"
+  #   scheme: slate
+  #   primary: black
+  #   accent: lime
+  #   toggle:
+  #     icon: material/weather-night
+  #     name: Switch to system preference
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+
+copyright: All materials licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> unless otherwise noted.
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/kevinyamauchi
+    - icon: fontawesome/brands/bluesky 
+      link: https://bsky.app/profile/kevinyamauchi.bsky.social
